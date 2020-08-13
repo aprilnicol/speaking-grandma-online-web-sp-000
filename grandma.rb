@@ -7,7 +7,7 @@ if phrase.downcase
   return "HUH?! SPEAK UP, SONNY!"
 # If you shout, she can hear you (or at least she thinks so)
 # and yells back
-elsif phrase.upcase
+elsif phrase.downcase
   return "NO, NOT SINCE 1938!"
 
 
